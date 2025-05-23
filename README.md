@@ -48,7 +48,7 @@ The raw data from Questions.csv, Answers.csv, and Tags.csv underwent the followi
 
 ## 📺 Deployment & Results
 
-- **Streamlit App:** [Live App Link](#)
+- **Streamlit App:** [Live App Link](https://programmingassistantllmrag-t6pbl72dvrm5f9f8hat6hc.streamlit.app/)
 - **Example Results:**
 
 ###  Example 1: User Question Input
