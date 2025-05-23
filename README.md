@@ -5,7 +5,7 @@ This project is an AI-powered programming assistant designed to help users under
 The core idea is to build an intelligent assistant that can answer programming questions. Instead of just relying on a general-purpose LLM, this project enhances the model's responses by first retrieving similar questions and answers from the preprocessed StackOverflow dataset. This Retrieval-Augmented Generation (RAG) approach provides more specific and relevant context to the LLM, leading to better quality answers.
 
 ##  Features
-*   **AI-Powered Answers:** Leverages a Large Language Model (LLM - `llama3:instruct`) to provide context-aware answers based on relevant StackOverflow data.
+*   **AI-Powered Answers:** Leverages a Large Language Model (LLM - llama3:instruct) to provide context-aware answers based on relevant StackOverflow data.
 *   **RAG Architecture:** Uses Retrieval-Augmented Generation (RAG) to find relevant Q&A examples from a ChromaDB vector store before generating the final answer.
 *   **Interactive Interfaces:** Offers both a web-based Streamlit application and a FastAPI endpoint for interaction.
 
