@@ -43,5 +43,5 @@ The raw data from Questions.csv, Answers.csv, and Tags.csv underwent the followi
 ##  Deployment & Results
 *   **Streamlit App:** [Access the live Streamlit application here] () 
 *   **Result Screenshots:**
-    *   ![Result Image 1]()
-    *   ![Result Image 2]()
+    *   ![Result Image 1](images/Q.png)
+    *   ![Result Image 2](images/result.png)
