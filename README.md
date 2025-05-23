@@ -37,7 +37,7 @@ The raw data from Questions.csv, Answers.csv, and Tags.csv underwent the followi
     *   **ChromaDB:** Vector database used to store StackOverflow Q&A embeddings and enable efficient retrieval. 💾
     *   **FastAPI:** Framework used to build the backend API endpoint (/ask) for programmatic access. ⚡
     *   **Streamlit:** Framework used to create the interactive web application interface. 
-*   **Embeddings:** `mxbai-embed-large` via Ollama for creating vector representations of the text data.
+*   **Embeddings:** mxbai-embed-large via Ollama for creating vector representations of the text data.
 *   **Architecture:** Retrieval-Augmented Generation (RAG) - The system first retrieves relevant documents (Q&A pairs) from ChromaDB based on the user's query and then feeds these documents along with the query to the LLM (llama3:instruct) to generate a final, context-rich answer.
 
 ##  Architecture
