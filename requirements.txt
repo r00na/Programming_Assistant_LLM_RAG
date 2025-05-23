@@ -1,0 +1,11 @@
+chromadb
+openai
+tiktoken
+pandas
+scikit-learn
+sentence-transformers
+python-dotenv
+langchain
+langchain-ollama
+langchain-chroma
+streamlit
